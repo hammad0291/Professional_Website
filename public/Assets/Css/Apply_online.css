@@ -1,0 +1,61 @@
+.apply-now-tks {
+    position: fixed;
+    left: 2px;
+    background: #0b1693;
+    z-index: 777;
+    bottom: 50px;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    display: block;
+    line-height: 1.4 !important;
+    text-align: center;
+    padding: 5px;
+    background: linear-gradient(blue, red);
+    padding-top: 23px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apply-now-tks:hover{
+color:#fff;
+transform: translatex(60px);
+        box-shadow:
+            1px 1px #1d1ac9,
+            2px 2px #1d1ac9,
+            3px 3px #1d1ac9;
+        text-decoration: none;
+        cursor: pointer;
+  }
+  @media (max-width: 768px){
+    .apply-now-tks{
+        height: 12%;
+        width: 11%;
+        padding: 15px;
+    }
+  }
+  @media (max-width: 425px){
+    .apply-now-tks{
+        height: 9%;
+        width: 15%;
+        padding: 11px;
+        font-size: 15px;
+    }
+  }
+  @media (max-width: 375px){
+    .apply-now-tks{
+        height: 8%;
+        width: 14%;
+        padding: 8px;
+        font-size: 13px;
+    }
+  }
+  @media (max-width: 320px){
+    .apply-now-tks{
+        height: 7%;
+        width: 15%;
+        padding: 7px;
+        font-size: 12px;
+    }
+  }

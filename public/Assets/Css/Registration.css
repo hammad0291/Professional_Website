@@ -1,0 +1,241 @@
+.ptm_log {
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image:
+        linear-gradient(to bottom, rgba(37, 37, 37, 0.73), rgba(37, 37, 37, 0.73)),
+        url('./online-reg.jpg');
+}
+.para-2 p {
+    text-align: center;
+    font-family: inherit;
+    font-weight: 700;
+    margin: 0px;
+    color: aliceblue;
+    font-size: 40px;
+    position: relative;
+    top: 197px;
+}
+
+input[type=text],
+input[type=tel],
+input[type=submit],
+input[type=email],
+input[type=date],
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    outline: none;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+}
+
+input[type=text]:focus,
+input[type=tel]:focus,
+input[type=email]:focus,
+input[type=date]:focus,
+textarea:focus {
+    border-color: rgb(186, 201, 206);
+    box-shadow: 0 0 8px 0 rgb(154, 178, 189);
+    outline: none;
+    transition: .5s;
+}
+
+input[type=submit]{
+        background-image: linear-gradient(to left, #780206 0%, #061161  51%, #780206  100%);
+        margin: 10px 3px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        outline: none;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 50px;
+        display: block;
+        border: 0px;
+      }
+
+      input[type=submit]:hover{
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+     
+.admission {
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    padding: 29px;
+    width: 50%;
+}
+
+.zindagi {
+    width: 50%;
+    /* padding: 29px; */
+    margin-left: 377px;
+    margin-right: 394px;
+}
+
+.roads {
+    padding: 0px;
+}
+
+.addr {
+    padding: 0;
+}
+
+.applied {
+    padding: 0;
+}
+
+select {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 4px;
+    display: inline-block;
+    line-height: 2.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+}
+
+.opt {
+    padding: 0;
+    margin-top: 9px;
+}
+.downkro{
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 8px;
+  position: absolute;
+  margin-left: 32%;
+  margin-top: -53px;
+  color: #fff;
+  font-weight: 600;
+  transition: all 4s linear all;
+} 
+.downkro:hover{ 
+    background-color: #35a2c4;
+}
+.admmission{
+    margin-top: 335px; margin-left: 360px;
+    margin-right: 394px;
+    padding: 1rem; 
+}
+@media (max-width: 768px){
+    .ptm_log{
+        height: 36%;
+    }
+    .para-2 p{
+        font-size: 34px;
+        top: 109px;
+    }
+    .admmission{
+        margin-top: 254px;
+    margin-left: 92px;
+    padding: 1rem;
+    width: 80%; 
+    }
+    .zindagi{
+        width: 80%;
+    margin-left: 106px;
+    }
+    .downkro{
+        margin-left: 49%;
+    margin-top: -47px;
+    font-size: 16px;
+    padding: 6px;
+    }
+}
+@media (max-width: 425px){
+    .ptm_log{
+        height: 30%;
+    }
+    .para-2 p{
+        font-size: 26px;
+        top: 95px;
+    }
+    .admmission{
+        margin-top: 234px;
+    margin-left: 20px;
+    padding: 1rem;
+    width: 87%;
+    }
+    .zindagi{
+        width: 83%;
+    margin-left: 39px;
+    }
+    .downkro{
+        margin-left: 18%;
+    margin-top: -80px;
+    font-size: 13px;
+    padding: 8px;
+    }
+}
+@media (max-width: 375px){
+    .ptm_log{
+        height: 25%;
+    }
+    .para-2 p{
+        font-size: 23px;
+        top: 77px;
+    }
+    .admmission{
+        margin-top: 202px;
+    margin-left: 20px;
+    padding: 1rem;
+    width: 87%;
+    font-size: 15px;
+    }
+    .zindagi{
+        width: 85%;
+    margin-left: 35px;
+    }
+    .downkro{
+        margin-left: 13%;
+    margin-top: -118px;
+    font-size: 13px;
+    padding: 8px;
+    }
+    input[type=text],
+    input[type=tel],
+    input[type=submit],
+    input[type=email],
+    input[type=date],
+    textarea{
+        padding: 6px 9px;
+    }  
+}
+@media (max-width: 320px){
+    .ptm_log{
+        height: 24%;
+    }
+    .para-2 p{
+        font-size: 20px;
+        top: 77px;
+    }
+    .admmission{
+        margin-top: 200px;
+    margin-left: 13px;
+    padding: 1rem;
+    width: 90%;
+    font-size: 15px;
+    }
+    .zindagi{
+        width: 87%;
+    margin-left: 27px;
+    }
+}

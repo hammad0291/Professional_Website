@@ -1,0 +1,122 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 1rem auto 0px auto;
+}
+
+.section img {
+    height: 250px;
+    margin-top: 20px;
+}
+
+.section h1 {
+    margin: 0;
+    color: #2d1c60;
+    padding: 12px 14px;
+}
+
+.section p {
+    color: #818b6d;
+    padding: 12px;
+    font-size: 18px;
+}
+@media (max-width: 768px){
+    .section {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 7px;
+    width: 97%;
+    margin: 2rem auto -40px auto;
+}
+.section img {
+    height: 203px;
+    margin-top: 22px;
+}
+.section h1 {
+    margin: 0px;
+    color: #100101;
+    padding: 10px 13px;
+}
+.section p {
+    color: #836246;
+    padding: 10px;
+    font-size: 18px;
+}
+}
+@media (max-width: 425px){
+    .section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 26px;
+    width: 96%;
+    margin: 1rem auto -40px auto;
+    flex-direction: column;
+    }
+    .section img {
+    height: 180px;
+    margin-top: 22px;
+    width: 52%;
+    }
+  .faizu{  display: flex;
+    flex-direction: column-reverse;
+}
+}
+@media (max-width: 375px){
+    .section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    width: 99%;
+    margin: 0rem auto 23px auto;
+    flex-direction: column;
+}
+.section img {
+    height: 151px;
+    margin-top: 25px;
+    width: 43%;
+}
+.linkdn{
+    margin-top: -41px;
+}
+.faizu{  display: flex;
+    flex-direction: column-reverse;
+}
+.section p {
+    color: #836246;
+    padding: 1px;
+    font-size: 18px;
+}
+}
+@media (max-width: 320px){
+    .section img {
+    margin: 0 auto;
+    width: 50%;
+}
+.section p {
+    color: #836246;
+    padding: 1px;
+    font-size: 18px;
+}
+.section p {
+    color: #836246;
+    padding: 0px;
+    font-size: 17px;
+}
+.section{
+    margin: 2rem auto 23px auto;
+}
+.section h1 {
+    margin: 0px;
+    color: #100101;
+    padding: 7px 15px;
+    text-align: center;
+}
+.faizu {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    bottom: 18px;
+}
+}
