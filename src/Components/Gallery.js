@@ -19,6 +19,7 @@ import Gallery13 from "../Images/gallery-13.jpg"
 import Gallery14 from "../Images/gallery-14.JPG"
 import Gallery15 from "../Images/gallery-15.JPG"
 import Gallery16 from "../Images/gallery-16.JPG"
+import Whatsapp_button from './Whatsapp_button'
 export default function Gallery() {
   return (
 <>
@@ -167,6 +168,7 @@ export default function Gallery() {
         </div>
     </div>
     <Footer/>
+    <Whatsapp_button/>
 </>
     )
 }

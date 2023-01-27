@@ -1,10 +1,6 @@
 
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Raleway', sans-serif;
-}
+
 
 body,
 html {
@@ -248,7 +244,6 @@ iframe {
 .contact100-form-title {
     width: 100%;
     display: block;
-    font-family: 'Raleway', sans-serif;
     font-size: 30px;
     color: #333;
     line-height: 1.2;

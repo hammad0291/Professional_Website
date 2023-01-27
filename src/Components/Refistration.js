@@ -3,6 +3,7 @@ import Apply_online from './Apply_online'
 import Footer from './Footer'
 import Navbar from './Navbar'
 import Sticky_Container from './Sticky_Container'
+import Whatsapp_button from './Whatsapp_button'
 
 export default function Refistration() {
   return (
@@ -71,6 +72,7 @@ export default function Refistration() {
             <input type="submit" value="Submit"/>
         </form>
         <Footer/>
+        <Whatsapp_button/>
     </>
   )
 }

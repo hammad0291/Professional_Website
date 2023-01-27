@@ -3,6 +3,7 @@ import Apply_online from './Apply_online'
 import Footer from './Footer'
 import Navbar from './Navbar'
 import Sticky_Container from './Sticky_Container'
+import Whatsapp_button from './Whatsapp_button'
 
 export default function Parent_teach() {
   return (
@@ -74,6 +75,7 @@ export default function Parent_teach() {
             </p>
         </div>
         <Footer/>
+        <Whatsapp_button/>
     </>
   )
 }

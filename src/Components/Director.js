@@ -6,6 +6,7 @@ import Apply_online from './Apply_online';
 import Footer from './Footer';
 import Navbar from './Navbar';
 import Sticky_Container from './Sticky_Container';
+import Whatsapp_button from './Whatsapp_button';
 
 
  function Director () {
@@ -34,13 +35,14 @@ import Sticky_Container from './Sticky_Container';
     <div className="section">
         <img src={director3} alt=""/>
         <div className="text">
-            <h1>Sir Shayan</h1>
+            <h1>Sir Arsalan</h1>
             <p>We also believe that the environment of a school or collegiate should be an extension of the family, providing a safe environment in which students can learning safely, challenge themselves intellectually, and explore new ideas rigourously.
                 This foundation of our educational and social philosophy supports us in providing opportunities for learning that enable our students to become the very best that they can be. We do this by being professional and we do this by caring about our profession. In this way, study with professional educational System adds significant value in the lives of our students.
                 </p>
         </div>        
     </div>
     <Footer/>
+    <Whatsapp_button/>
     </>
   );
 };

@@ -30,6 +30,7 @@ import slide10 from "../Images/slide-11.jpg";
 import Apply_online from './Apply_online';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import Whatsapp_button from './Whatsapp_button';
 import Sticky_Container from './Sticky_Container';
 
 
@@ -37,6 +38,7 @@ export default function Header() {
   return (
     <>
     <Navbar/>
+    <Sticky_Container/>
     <Apply_online/>
     <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
     <div className="carousel-inner">
@@ -126,7 +128,7 @@ export default function Header() {
   <div className="subscribe-box">
     <h1>Subscribe</h1>
     <span>get subscribe to the latest info.</span>
-    <input type="email" name="email_address" placeholder="Email Address"/>
+    <input className='sams' type="notallow" name="email_address" placeholder="Email Address"/>
     <button type="submit">Subscribe</button>
   </div>
   <Swiper 
@@ -193,7 +195,7 @@ export default function Header() {
   </div>
   </Swiper>
   <Footer/>
-  <Sticky_Container/>
+  <Whatsapp_button/>
     </>
   )
 }

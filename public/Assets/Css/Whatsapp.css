@@ -1,0 +1,59 @@
+.whatsapp-btn {
+    background-color: #25d366;
+color: white;
+padding: 15px 14px;
+border-radius: 50%;
+font-size: 19px;
+text-decoration: none;
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 9999;
+width: 100px;
+line-height: 25px;
+height: 100px;
+text-align: center;
+
+}
+.whatsapp-btn:hover {
+background-color: #1da854; /* Darker WhatsApp green on hover */
+color: white;
+}
+.whatsapp-btn i {
+margin-right: 8px;
+font-size: 42px;
+    margin: 0;
+}
+@media (max-width: 768px){
+    .whatsapp-btn{
+        height: 12%;
+        width: 11%;
+        padding: 3px;
+        font-size: 15px;
+    }
+  }
+  @media (max-width: 425px){
+    .whatsapp-btn{
+        height: 10%;
+        width: 16%;
+        padding: 3px 1px;
+        font-size: 13px;
+        line-height: 10px;
+    }
+  }
+  @media (max-width: 375px){
+    .whatsapp-btn{
+        height: 8%;
+        width: 14%;
+        padding: 5px 9px;
+        font-size: 0px;
+    }
+  }
+  @media (max-width: 320px){
+    .whatsapp-btn{
+        height: 7%;
+        width: 15%;
+        padding: 1px;
+        font-size: 0px;
+    }
+  }

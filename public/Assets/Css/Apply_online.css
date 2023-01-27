@@ -3,7 +3,7 @@
     left: 2px;
     background: #0b1693;
     z-index: 777;
-    bottom: 50px;
+    bottom: 20px;
     border-radius: 50px;
     height: 100px;
     width: 100px;
@@ -11,7 +11,7 @@
     line-height: 1.4 !important;
     text-align: center;
     padding: 5px;
-    background: linear-gradient(blue, red);
+    background: linear-gradient(#ab1515, #7c0c0c);
     padding-top: 23px;
     color: #fff;
     font-size: 18px;

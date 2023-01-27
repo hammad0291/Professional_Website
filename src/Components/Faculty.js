@@ -15,6 +15,7 @@ import Navbar from './Navbar';
 import Sticky_Container from './Sticky_Container';
 import Apply_online from './Apply_online';
 import Footer from './Footer';
+import Whatsapp_button from './Whatsapp_button';
 
 
 export default function Faculty() {
@@ -142,6 +143,7 @@ export default function Faculty() {
     </figure>
   </div>
   <Footer/>
+  <Whatsapp_button/>
     </>
   )
 }

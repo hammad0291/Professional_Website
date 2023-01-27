@@ -271,7 +271,7 @@
     margin: 25px auto;
   }
 
-  .subscribe-box input {
+  .sams{
     width: 100%;
     box-sizing: border-box;
     padding: 15px;
@@ -280,8 +280,8 @@ outline-color: #8b0000;
     border-radius: 50px;
     margin-bottom: 18px;
   }
-  input[type=email]:focus{
-      border-color: rgb(12, 21, 143);
+  input[type=notallow]:focus{
+      border-color: rgb(48, 89, 165);
       box-shadow: 0 0 8px 0 rgb(12, 21, 143);
       outline: none;
       transition: .5s;
@@ -601,7 +601,7 @@ font-size: 16px;
   font-size: 18px;
   background: #931e1e;
 }
-.subscribe-box input{
+.sams{
 width: 88%;
 margin-bottom: 9px;
 padding: 10px;
@@ -742,7 +742,7 @@ color: #6e1212;
 .subscribe-box span{
 font-size: 13px;
 }
-.subscribe-box input {
+.sams{
   width: 76%;
   margin-bottom: 12px;
   padding: 3px;
@@ -762,7 +762,6 @@ margin-top: 36px;
   width: 40%;
 }
 .txt1 {
-  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   line-height: 2.2;
   color: #fff;
@@ -943,7 +942,7 @@ margin-top: 36px;
 .subscribe-box span {
   font-size: 11px;
 }
-.subscribe-box input {
+.sams {
   width: 65%;
   margin-bottom: 11px;
   padding: 1px;
@@ -955,7 +954,7 @@ margin-top: 36px;
 }
 
 .txt3 {
-  font-family: 'Raleway', sans-serif;
+
   font-size: 15px;
   line-height: 1.6;
   color: #00ad5f;
@@ -967,7 +966,7 @@ margin-top: 36px;
   left: 156px;
 }
 .txt1 {
-  font-family: 'Raleway', sans-serif;
+  
   font-size: 17px;
   line-height: 2.2;
   color: #fff;
@@ -975,7 +974,6 @@ margin-top: 36px;
   margin-top: 44px;
 }
 .txt2 {
-  font-family: 'Raleway', sans-serif;
   font-size: 14px;
   line-height: 1.6;
   color: #999;

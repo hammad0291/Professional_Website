@@ -4,6 +4,7 @@ import Apply_online from './Apply_online';
 import Footer from './Footer';
 import Navbar from './Navbar';
 import Sticky_Container from './Sticky_Container';
+import Whatsapp_button from './Whatsapp_button';
 
 export default function Contact() {
   return (
@@ -19,27 +20,27 @@ export default function Contact() {
               </span>
               <label className="label-input100" for="first-name">Tell us your name *</label>
               <div className="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
-                  <input id="first-name" className="input100" type="text" name="first-name" placeholder="First name"/>
+                  <input id="first-name" className="input100" type="textt" name="first-name" placeholder="First name"/>
                   <span className="focus-input100"></span>
               </div>
               <div className="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
-                  <input className="input100" type="text" name="last-name" placeholder="Last name"/>
+                  <input className="input100" type="textt" name="last-name" placeholder="Last name"/>
                   <span className="focus-input100"></span>
               </div>
               <label className="label-input100" for="email">Enter your email *</label>
               <div className="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                  <input id="email" className="input100" type="text" name="email" placeholder="Eg. example@email.com"/>
+                  <input id="email" className="input100" type="textt" name="email" placeholder="Eg. example@email.com"/>
                   <span className="focus-input100"></span>
               </div>
               <label className="label-input100" for="phone">Enter phone number</label>
               <div className="wrap-input100">
-                  <input id="phone" className="input100" type="text" name="phone" placeholder="Eg. +92 123456789"/>
+                  <input id="phone" className="input100" type="textt" name="phone" placeholder="Eg. +92 123456789"/>
                   <span className="focus-input100"></span>
               </div>
               <label className="label-input100" for="message">Message *</label>
               <div className="wrap-input100 validate-input" data-validate="Message is required">
                   <textarea id="message" className="input100" name="message" placeholder="Write us a message"></textarea>
-                  <span className="focus-input100"></span>
+                  <span className="focus-input1001"></span>
               </div>
               <div className="container-contact100-form-btn">
                   <button className="contact100-form-btn">
@@ -93,6 +94,7 @@ export default function Contact() {
   </div>
   <div id="dropDownSelect1"></div>
     <Footer/>
+    <Whatsapp_button/>
 </>
   )
 }
