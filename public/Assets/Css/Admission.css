@@ -61,7 +61,7 @@
         top: 110px;
     }
     .bg-8{
-        height: 30%;
+        /* height: 40%; */
         width: 100%;
     }
     .imgs img{
@@ -86,7 +86,7 @@
         top: 44px;
     }
     .bg-8{
-        height: 23%;
+        height: 26vh;
         width: 100%;
     }
     .imgs img{
@@ -114,7 +114,7 @@
         top: 44px;
     }
     .bg-8{
-        height: 23%;
+        height: 27vh;
         width: 100%;
     }
     .imgs img{

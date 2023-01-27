@@ -574,9 +574,9 @@ margin-top: 44px;
   margin-right: 420px;
 }
 .subscribe-box {
-  top: 369%;
+  top: 386%;
   left: 79%;
-  height: 34%;
+  height: 39%;
   position: absolute;
   transform: translate(-50%, -50%);
   background: #fff;
@@ -724,9 +724,9 @@ outline-color: #8b0000;
   padding: 1px;
 }
 .subscribe-box {
-  top: 363%;
+  top: 379%;
   left: 75%;
-  height: 25%;
+  height: 29%;
   position: absolute;
   transform: translate(-50%, -50%);
   background: #fff;
@@ -831,14 +831,14 @@ margin-top: 36px;
   text-transform: capitalize;
 }
 .subscribe-box {
-  top: 347%;
+  top: 359%;
   left: 74%;
-  height: 25%;
+  height: 28%;
   position: absolute;
   transform: translate(-50%, -50%);
   background: #fff;
   padding: 0px 0px;
-  width: 158px;
+  width: 151px;
 }
 
 .lush {
@@ -928,14 +928,14 @@ margin-top: 36px;
   width: 28%;
 }
 .subscribe-box {
-  top: 309%;
-  left: 70%;
-  height: 20%;
+  top: 320%;
+  left: 71%;
+  height: 25%;
   position: absolute;
   transform: translate(-50%, -50%);
   background: #fff;
   padding: 0px 0px;
-  width: 170px;
+  width: 159px;
 }
 .subscribe-box h1 {
   font-size: 25px;

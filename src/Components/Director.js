@@ -7,7 +7,8 @@ import Footer from './Footer';
 import Navbar from './Navbar';
 import Sticky_Container from './Sticky_Container';
 
-export default function Director() {
+
+ function Director () {
   return (
     <>
     <Navbar/>
@@ -41,5 +42,7 @@ export default function Director() {
     </div>
     <Footer/>
     </>
-  )
-}
+  );
+};
+
+export default Director;

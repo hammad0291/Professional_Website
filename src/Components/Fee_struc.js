@@ -15,8 +15,8 @@ export default function Fee_struc() {
       <p>Professionals Fee Structure</p>
     </div>
   </div>
-  <div className="intro" style={{marginTop: "86px" ,marginLeft: "360px" ,marginRight: "394px", padding: "1rem"}}>
-    <p style={{marginTop: "300px" , color: "black", fontSize: "17px"}}>
+  <div className="intro12">
+    <p className='chal'>
     <h1 style={{lineHeight: "2.5em", color: "#a2a2cb", fontWeight: "700"}}>FEE STRUCTURE</h1>The PROFESSIONAL EDUCATIONAL SYSTEM is
     now accepting applications for school admissions from Playgroup to Intermediate. In this section, you can find information
     pertaining to the fee structure as part of the school admission procedure. These involve a registration fee, an
@@ -24,7 +24,7 @@ export default function Fee_struc() {
     discounts can be found below. If you wish to submit an online application for admission in PROFESSIONAL EDUCATIONAL SYSTEM, you may do so here.
     </p>
   </div>
-  <div className="tables" style={{marginLeft: "360px", marginRight: "394px", padding: "1rem"}}>
+  <div className="tables">
     <h4 style={{lineHeight: "2.5em", fontSize: "25px", color: "#a2a2cb", fontWeight: "700"}}>PRE SCHOOL:</h4>
     <div style={{marginBottom: "28px"}}>
       <table id="customers">
