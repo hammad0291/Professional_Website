@@ -121,7 +121,7 @@
     min-height: 540px;
     height: auto;
     background-color: #000000;
-    background-image: url(./syudy\ 3.jpg);
+    background-image: url(./card-back.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -508,8 +508,8 @@ outline-color: #8b0000;
   position: relative;
   right: 13px;
   }
-  .gradient-button-1 {background-image: linear-gradient(to left, #780206 0%, #061161  51%, #780206  100%);}
-.gradient-button-1:hover { background-position: right center; }
+  .gradient-button-1 {background-image: linear-gradient(to left, #780206 0%, #1528b3 51%, #312d8f 100%);}
+.gradient-button-1:hover { background-position: top center; }
 .gradient-button-1:hover{
 color: white;
 }

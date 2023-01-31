@@ -5,26 +5,26 @@
     z-index: 777;
     bottom: 20px;
     border-radius: 50px;
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     display: block;
-    line-height: 1.4 !important;
+    line-height: 1.2 !important;
     text-align: center;
     padding: 5px;
-    background: linear-gradient(#ab1515, #7c0c0c);
+    background-image: linear-gradient(to left, #2e2970 0%, #1528b3 51%, #272389 100%);
     padding-top: 23px;
     color: #fff;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     text-decoration: none;
 }
 .apply-now-tks:hover{
 color:#fff;
-transform: translatex(60px);
+/* transform: translatex(60px);
         box-shadow:
             1px 1px #1d1ac9,
             2px 2px #1d1ac9,
-            3px 3px #1d1ac9;
+            3px 3px #1d1ac9; */
         text-decoration: none;
         cursor: pointer;
   }

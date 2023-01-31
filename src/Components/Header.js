@@ -42,7 +42,7 @@ export default function Header() {
     <Apply_online/>
     <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
     <div className="carousel-inner">
-      <div className="carousel-item active lush d-block w-100" style={{zIndex: "3", position: "relative", backgroundImage:
+      <div className="carousel-item lush d-block w-100" style={{zIndex: "3", position: "relative", backgroundImage:
       `linear-gradient(to bottom, rgba(37, 37, 37, 0.73), rgba(37, 37, 37, 0.73)), url(${Header1})`}}>
     </div>
       <div className="carousel-item lush d-block w-100" style={{backgroundImage:

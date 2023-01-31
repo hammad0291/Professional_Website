@@ -1,5 +1,12 @@
 footer {
-    background: #bb323f;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image:
+        linear-gradient(to bottom, rgb(129 51 51 / 73%), rgb(163 110 110 / 73%)),
+        url('./footer-back.jpg');
+
+
     height: auto;
     width: auto;
     font-family: "open Sans";
@@ -57,7 +64,7 @@ footer {
 }
 
 .footer-bottom {
-    background-color: #150d97;
+    background-image: linear-gradient(to bottom right, #1a2446, #4458c5);
     width: auto;
     padding: 20px 0;
     text-align: center;

@@ -11,6 +11,13 @@ import Faculty9 from "../Images/faculty-9.png";
 import Faculty10 from "../Images/faculty-10.png";
 import Faculty11 from "../Images/faculty-11.png";
 import Faculty12 from "../Images/faculty-12.png";
+import Faculty13 from "../Images/faculty-13.png";
+import Faculty14 from "../Images/faculty-14.png";
+import Faculty15 from "../Images/faculty-15.png";
+import Faculty16 from "../Images/faculty-16.png";
+import Faculty17 from "../Images/faculty-17.png";
+import Faculty18 from "../Images/faculty-18.png";
+import Faculty19 from "../Images/faculty-19.png";
 import Navbar from './Navbar';
 import Sticky_Container from './Sticky_Container';
 import Apply_online from './Apply_online';
@@ -138,6 +145,60 @@ export default function Faculty() {
         <h2>SIR FAIZAN</h2>
         <h4>MATHS CLASS IX</h4>
         <span>(Teaching since 2010)</span>
+        <blockquote>It is clear that the chief end of mathematical study must be to make the students think.</blockquote>
+      </figcaption>
+    </figure>
+    <figure className="snip1390"><img src={Faculty13}
+    alt="profile-sample6" className="profile" />
+      <figcaption>
+        <h2>SIR FARRUKH</h2>
+        <h4>ECONOMICS/BANKING</h4>
+        <span>(Teaching since 2012)</span>
+        <blockquote>It is clear that the chief end of mathematical study must be to make the students think.</blockquote>
+      </figcaption>
+    </figure>
+    <figure className="snip1390"><img src={Faculty14}
+    alt="profile-sample6" className="profile" />
+      <figcaption>
+        <h2>SIR FAHAD</h2>
+        <h4>CHEMISTRY</h4>
+        <span>(Teaching since 2011)</span>
+        <blockquote>It is clear that the chief end of mathematical study must be to make the students think.</blockquote>
+      </figcaption>
+    </figure>
+    <figure className="snip1390"><img src={Faculty15}
+    alt="profile-sample6" className="profile" />
+      <figcaption>
+        <h2>SIR ABDUL AHAD</h2>
+        <h4>PHYSICS</h4>
+        <span>(Teaching since 2009)</span>
+        <blockquote>It is clear that the chief end of mathematical study must be to make the students think.</blockquote>
+      </figcaption>
+    </figure>
+    <figure className="snip1390"><img src={Faculty17}
+    alt="profile-sample6" className="profile" />
+      <figcaption>
+        <h2>SIR JAHANZAIB</h2>
+        <h4>MATHEMATICS</h4>
+        <span>(Teaching since 2013)</span>
+        <blockquote>It is clear that the chief end of mathematical study must be to make the students think.</blockquote>
+      </figcaption>
+    </figure>
+    <figure className="snip1390"><img src={Faculty18}
+    alt="profile-sample6" className="profile" />
+      <figcaption>
+        <h2>SIR HANIF</h2>
+        <h4>ENGLISH</h4>
+        <span>(Teaching since 2006)</span>
+        <blockquote>It is clear that the chief end of mathematical study must be to make the students think.</blockquote>
+      </figcaption>
+    </figure>
+    <figure className="snip1390"><img src={Faculty19}
+    alt="profile-sample6" className="profile" />
+      <figcaption>
+        <h2>SIR HAMZA</h2>
+        <h4>COMPUTER</h4>
+        <span>(Teaching since 2013)</span>
         <blockquote>It is clear that the chief end of mathematical study must be to make the students think.</blockquote>
       </figcaption>
     </figure>

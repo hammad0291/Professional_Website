@@ -53,10 +53,10 @@ export default function Gallery() {
                     </a>
                 </div>
                 <div className="item selfie col-lg-3 col-md-4 col-6 col-sm">
-                <a href={Gallery3}
+                <a href={Gallery6}
                         className="fancylight popup-btn" data-fancybox-group="light">
                         <img className="img-fluid" style={{borderRadius: "12px",boxShadow: "rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px"}}
-                            src={Gallery3}
+                            src={Gallery6}
                             alt=""/>
                     </a>
                 </div>
