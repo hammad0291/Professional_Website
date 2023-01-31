@@ -64,12 +64,11 @@ href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
       $('.portfolio-menu ul li').click(function(){
          $('.portfolio-menu ul li').removeClass('active');
          $(this).addClass('active');
-
          var selector = $(this).attr('data-filter');
          $('.portfolio-item').isotope({
-           filter:selector
+           filter:selector,
          });
-         return  false;
+         return false;
        });
        $(document).ready(function() {
        var popup_btn = $('.popup-btn');

@@ -11,7 +11,7 @@
     line-height: 1.2 !important;
     text-align: center;
     padding: 5px;
-    background-image: linear-gradient(to left, #2e2970 0%, #1528b3 51%, #272389 100%);
+    background-image: linear-gradient(to left, #2e2970 0%, #1528b3 31%, #272389 100%);
     padding-top: 23px;
     color: #fff;
     font-size: 17px;
@@ -20,11 +20,13 @@
 }
 .apply-now-tks:hover{
 color:#fff;
-/* transform: translatex(60px);
-        box-shadow:
-            1px 1px #1d1ac9,
+background-color: rgb(72, 84, 194);
+/* transform: translatex(60px); */
+
+         /* box-shadow:
+            1px 1px #2c2fca,
             2px 2px #1d1ac9,
-            3px 3px #1d1ac9; */
+            3px 3px #1d1ac9;   */
         text-decoration: none;
         cursor: pointer;
   }

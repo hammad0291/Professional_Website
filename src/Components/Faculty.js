@@ -14,7 +14,6 @@ import Faculty12 from "../Images/faculty-12.png";
 import Faculty13 from "../Images/faculty-13.png";
 import Faculty14 from "../Images/faculty-14.png";
 import Faculty15 from "../Images/faculty-15.png";
-import Faculty16 from "../Images/faculty-16.png";
 import Faculty17 from "../Images/faculty-17.png";
 import Faculty18 from "../Images/faculty-18.png";
 import Faculty19 from "../Images/faculty-19.png";
@@ -154,7 +153,7 @@ export default function Faculty() {
         <h2>SIR FARRUKH</h2>
         <h4>ECONOMICS/BANKING</h4>
         <span>(Teaching since 2012)</span>
-        <blockquote>It is clear that the chief end of mathematical study must be to make the students think.</blockquote>
+        <blockquote>Economics is the social science that studies the production, distribution, and consumption of goods and services.</blockquote>
       </figcaption>
     </figure>
     <figure className="snip1390"><img src={Faculty14}
@@ -163,7 +162,7 @@ export default function Faculty() {
         <h2>SIR FAHAD</h2>
         <h4>CHEMISTRY</h4>
         <span>(Teaching since 2011)</span>
-        <blockquote>It is clear that the chief end of mathematical study must be to make the students think.</blockquote>
+        <blockquote>Chemistry begins in the stars. The stars are the source of the chemical elements, which are the building blocks of matter and the core of our subject.</blockquote>
       </figcaption>
     </figure>
     <figure className="snip1390"><img src={Faculty15}
@@ -172,7 +171,7 @@ export default function Faculty() {
         <h2>SIR ABDUL AHAD</h2>
         <h4>PHYSICS</h4>
         <span>(Teaching since 2009)</span>
-        <blockquote>It is clear that the chief end of mathematical study must be to make the students think.</blockquote>
+        <blockquote>Physics is one of the most important subjects and areas of study which fuels most of the work we get done by today's machine.</blockquote>
       </figcaption>
     </figure>
     <figure className="snip1390"><img src={Faculty17}
@@ -190,7 +189,8 @@ export default function Faculty() {
         <h2>SIR HANIF</h2>
         <h4>ENGLISH</h4>
         <span>(Teaching since 2006)</span>
-        <blockquote>It is clear that the chief end of mathematical study must be to make the students think.</blockquote>
+        <blockquote>The strength to change what I can, the inability to accept what I can't and the incapacity to tell
+          the difference.</blockquote>
       </figcaption>
     </figure>
     <figure className="snip1390"><img src={Faculty19}
@@ -199,7 +199,7 @@ export default function Faculty() {
         <h2>SIR HAMZA</h2>
         <h4>COMPUTER</h4>
         <span>(Teaching since 2013)</span>
-        <blockquote>It is clear that the chief end of mathematical study must be to make the students think.</blockquote>
+        <blockquote>The computer was born to solve problems that did not exist before.</blockquote>
       </figcaption>
     </figure>
   </div>

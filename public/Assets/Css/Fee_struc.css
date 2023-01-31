@@ -32,21 +32,22 @@
   }
 
   #customers tr {
-    background: #b4b1b5;
+    background: #4b58b1;
+    color: white;
   }
 
   #customers td,
   #customers th {
-    border: 1px solid #b4b1b5;
+    border: 1px solid #ffffff;
     padding: 8px;
   }
 
   #customers tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #92b1ff;
   }
 
   #customers tr:hover {
-    background-color: #ddd;
+    background-color: rgb(62, 81, 190);
   }
 
   #customers th {
