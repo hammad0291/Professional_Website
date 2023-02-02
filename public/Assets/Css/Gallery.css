@@ -70,7 +70,7 @@ margin-top: -112px;
 }
 .container {
 max-width: 93%;
-margin-top: -200px;
+margin-top: -180px;
 }
 }
 @media (max-width: 375px){
@@ -113,5 +113,11 @@ margin-left: 54px;
     }
     .portfolio-item {
         width: 109%;
+    }
+}
+@media (max-width: 398px){
+    .img-fluid {
+        max-width: 113%;
+        height: 27vh;
     }
 }

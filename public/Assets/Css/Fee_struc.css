@@ -96,7 +96,7 @@
   }
   @media (max-width: 425px){
     .bg-1{
-      height: 34%;
+      height: 30%;
     }
     .para-3 p{
       font-size: 30px;
@@ -139,7 +139,7 @@
 }
 @media (max-width: 320px){
   .bg-1{
-      height: 32%;
+      height: 27%;
     }
     .para-3 p{
       font-size: 24px;

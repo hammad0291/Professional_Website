@@ -1,6 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {Autoplay} from "swiper";
+import { Carousel } from "react-bootstrap"
 import { Link } from 'react-router-dom';
 
 // Import Swiper styles
@@ -8,7 +9,7 @@ import 'swiper/css';
 import "swiper/css/free-mode";
 
 import Header1 from "../Images/edu_img-4.jpg";
-import Header2 from "../Images/edu_img-2.jpg";
+import Header2 from "../Images/stude-galle.jpg";
 import Header3 from "../Images/caro.jpg";
 import Header4 from "../Images/syudy-2.jpg";
 import Header5 from "../Images/collegi-front-modified.png";
@@ -40,23 +41,53 @@ export default function Header() {
     <Navbar/>
     <Sticky_Container/>
     <Apply_online/>
-    <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-    <div className="carousel-inner">
-      <div className="carousel-item lush d-block w-100" style={{zIndex: "3", position: "relative", backgroundImage:
-      `linear-gradient(to bottom, rgba(37, 37, 37, 0.73), rgba(37, 37, 37, 0.73)), url(${Header1})`}}>
-    </div>
-      <div className="carousel-item lush d-block w-100" style={{backgroundImage:
-      `linear-gradient(to bottom, rgba(37, 37, 37, 0.73), rgba(37, 37, 37, 0.73)), url(${Header2})`}}>
-     </div>
-      <div className="carousel-item lush d-block w-100" style={{backgroundImage:
-      `linear-gradient(to bottom, rgba(37, 37, 37, 0.73), rgba(37, 37, 37, 0.73)), url(${Header3})`}}>
-      </div>
-      <div className="carousel-item lush d-block w-100" style={{backgroundImage:
-      `linear-gradient(to bottom, rgba(37, 37, 37, 0.73), rgba(37, 37, 37, 0.73)), url(${Header4})`}}>
-      </div>
-    </div>
-
-  </div>
+    <Carousel prevIcon={null} nextIcon={null} indicators={false}>
+      <Carousel.Item>
+      <div
+          style={{
+            height: "88vh",
+            background:
+              `linear-gradient(to bottom, rgba(37, 37, 37, 0.73), rgba(37, 37, 37, 0.73)), url(${Header1})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center"
+          }}
+        />
+        
+      </Carousel.Item>
+      <Carousel.Item>
+      <div
+          style={{
+            height: "88vh",
+            background:
+              `linear-gradient(to bottom, rgba(37, 37, 37, 0.73), rgba(37, 37, 37, 0.73)), url(${Header2})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center"
+          }}
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+      <div
+          style={{
+            height: "88vh",
+            background:
+              `linear-gradient(to bottom, rgba(37, 37, 37, 0.73), rgba(37, 37, 37, 0.73)), url(${Header3})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center"
+          }}
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+      <div
+          style={{
+            height: "88vh",
+            background:
+              `linear-gradient(to bottom, rgba(37, 37, 37, 0.73), rgba(37, 37, 37, 0.73)), url(${Header4})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center"
+          }}
+        />
+      </Carousel.Item>
+    </Carousel>
   <div className="card">
     <div className="card-body">
     <h6 className="top-head">HELLO STUDENTS</h6>
@@ -124,13 +155,14 @@ export default function Header() {
 
   <div id='show_bg_2'>
     <p>I Went to Professional Collegiate</p>
-  </div>
-  <div className="subscribe-box">
+    <div className="subscribe-box">
     <h1>Subscribe</h1>
     <span>get subscribe to the latest info.</span>
     <input className='sams' type="notallow" name="email_address" placeholder="Email Address"/>
     <button type="submit">Subscribe</button>
   </div>
+  </div>
+  
   <Swiper 
     modules={[Autoplay]}
     className="mySwiper"
